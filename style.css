@@ -1,0 +1,79 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0; /* Light gray background */
+	color: #333; /* Default text color */
+}
+
+.FullC {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff; /* White container background */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	color: #ffa500; /* Orange header color */
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+h2 {
+	color: #800080; /* Purple header color */
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	color: #3478af; /* Black header color */
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.intro p,
+.callToAction p,
+.updates p,
+.Event p {
+	line-height: 1.5;
+	color: #444; /* Dark gray text color */
+	text-align: justify; /* Justify paragraph text */
+}
+
+button.button1,
+button.button2 {
+	background-color: #ffa500; /* Orange button background */
+	color: #fff; /* White button text color */
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+button.button1:hover,
+button.button2:hover {
+	background-color: #ff8c00; /* Darker orange on hover */
+}
+
+button.button1:focus,
+button.button2:focus {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+	color: #007bff; /* Blue link color */
+}
+
+a:hover {
+	color: #0056b3; /* Darker blue on hover */
+}
+
+em {
+	font-style: italic;
+	font-weight: bold;
+}
